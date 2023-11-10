@@ -365,7 +365,7 @@ img {
 
 .case__img {
   width: 250px;
-  position: absolute;
+  position: relative;
   left: -7rem;
 }
 

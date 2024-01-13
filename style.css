@@ -36,9 +36,20 @@ body{
 }
 
 .navigation-manual{
-    navigation: absolute;
+    position: absolute;
     width: 800px;
-    margin-tops: -40px;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right:40px;   
 }

@@ -53,3 +53,24 @@ body{
 .manual-btn:not(:last-child){
     margin-right:40px;   
 }
+
+.manual-btn:hover{
+    background: #0a0a0a;
+}
+
+#radio1:chceked ~ .first{
+    margin-left:0;
+}
+
+#radio2:chceked ~ .first{
+    margin-left:-20%;
+}
+
+#radio3:chceked ~ .first{
+    margin-left:40%;
+}
+
+#radio4:chceked ~ .first{
+    margin-left:60%;
+}
+

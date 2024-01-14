@@ -74,3 +74,30 @@ body{
     margin-left:60%;
 }
 
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    transition: 1s;
+
+}
+
+.navgation-auto div{
+
+    margin-top: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40dc40;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40dc40;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40dc40;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40dc40;
+}

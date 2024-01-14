@@ -3,7 +3,7 @@
     <head>
         <meta charset = "utf-8">
         <title> Image slider</title>
-        <link rel = "stylesheet" href = "style.css"
+        <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
         <div class="slider">
@@ -29,9 +29,9 @@
                 
                 <div class = "navigation-auto">
                     <div class = "auto-btn1"></div>
-                    <div class = "auto-btn1"></div>
-                    <div class = "auto-btn1"></div>
-                    <div class = "auto-btn1"></div>
+                    <div class = "auto-btn2"></div>
+                    <div class = "auto-btn3"></div>
+                    <div class = "auto-btn4"></div>
                 </div>
                  
             </div>
@@ -42,6 +42,17 @@
                 <label for ="radio4" class ="manual-btn"></label>
             </div>
         </div>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                dcoument.getElementById('radio'+counter) = true;
+                counter ++;
+                if(counter > 4){
+                    counter = 2;
+                }
+            },5000);
+
+        </script>
     </body>
 
 </html>
